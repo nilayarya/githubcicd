@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Define a route handler for the default home page
 app.get('/', (req, res) => {
-  res.send('Hello, World!');
+  res.send('Nilays srveer instance out in the world');
 });
 
 // Define a route handler for another endpoint
